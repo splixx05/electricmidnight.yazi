@@ -1,181 +1,179 @@
 [mgr]
-cwd = { fg = "white", italic = true }
+cwd = { fg = "#B4C9FF", italic = true }
 
 # Find
-find_keyword = { fg = "lightmagenta", bold = true }
-find_position = { fg = "lightmagenta", bold = true }
-symlink_target = { fg = "lightmagenta" }
+find_keyword = { fg = "#947CFF", bold = true }
+find_position = { fg = "#947CFF", bold = true }
+symlink_target = { fg = "#947CFF" }
 
 # Marker
-marker_copied = { fg = "green", bg = "green" }
-marker_cut = { fg = "red", bg = "red" }
-marker_marked = { fg = "magenta", bg = "magenta" }
-marker_selected = { fg = "white", bg = "white" }
+marker_copied = { fg = "#34eb83", bg = "#34eb83" }
+marker_cut = { fg = "#FF4747", bg = "#FF4747" }
+marker_marked = { fg = "#947CFF", bg = "#947CFF" }
+marker_selected = { fg = "#B4C9FF", bg = "#B4C9FF" }
 
 # Count
-count_copied = { fg = "black", bg = "cyan" }
-count_cut = { fg = "black", bg = "red" }
-count_selected = { fg = "black", bg = "white" }
+count_copied = { fg = "#1F2335", bg = "#00BFFF" }
+count_cut = { fg = "#1F2335", bg = "#FF4747" }
+count_selected = { fg = "#1F2335", bg = "#B4C9FF" }
 
 # Border
 border_symbol = "│"
-border_style = { fg = "cyan" }
+border_style = { fg = "#00BFFF" }
 syntect_theme = "~/.config/yazi/flavors/Electric-Midnight.yazi/tmtheme.xml"
 
 [indicator]
 # Hovere and selection style
-parent = { bg = "darkgrey" }
-current = { bg = "darkgrey" }
-preview = { bg = "darkgrey" }
-padding = { open = "▐", close = "▌" }
+parent = { bg = "#022945" }
+current = { bg = "#022945" }
+preview = { bg = "#022945" }
+# padding = { open = "▐", close = "▌" }
 
 [tabs]
-active = { fg = "black", bg = "lightcyan" }
-inactive = { fg = "lightcyan", bg = "black" }
+active = { fg = "#1F2335", bg = "#00E5FF" }
+inactive = { fg = "#00E5FF", bg = "#1F2335" }
 sep_inner = { open = "", close = "" }
 sep_outer = { open = "", close = "" }
 
 [mode]
-normal_main = { fg = "green", bg = "black", bold = true }
-normal_alt = { fg = "green", bg = "black" }
-select_main = { fg = "black", bg = "magenta", bold = true }
-select_alt = { fg = "magenta", bg = "grey" }
+normal_main = { fg = "#34eb83", bg = "#1F2335", bold = true }
+normal_alt = { fg = "#34eb83", bg = "#1F2335" }
+select_main = { fg = "#1F2335", bg = "#947CFF", bold = true }
+select_alt = { fg = "#947CFF", bg = "#4A6070" }
 
-unset_main = { fg = "black", bg = "red", bold = true }
-unset_alt = { fg = "red", bg = "grey" }
+unset_main = { fg = "#1F2335", bg = "#FF4747", bold = true }
+unset_alt = { fg = "#FF4747", bg = "#4A6070" }
 
 [status]
 sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
-overall = { fg = "cyan", bg = "black" }
+overall = { fg = "#00BFFF", bg = "#1F2335" }
 
-progress_label = { fg = "black", bold = true }
-progress_normal = { fg = "cyan" }
-progress_error = { fg = "red" }
+progress_label = { fg = "#FF7F0F", bold = true }
+progress_normal = { fg = "#00BFFF" }
+progress_error = { fg = "#FF4747" }
 
-perm_type = { fg = "lightcyan" }
-perm_read = { fg = "cyan" }
-perm_write = { fg = "yellow" }
-perm_exec = { fg = "red" }
-perm_sep = { fg = "lightcyan" }
+perm_type = { fg = "#00E5FF" }
+perm_read = { fg = "#00BFFF" }
+perm_write = { fg = "#FF7F0F" }
+perm_exec = { fg = "#FF4747" }
+perm_sep = { fg = "#00E5FF" }
 
 [pick]
-border = { fg = "cyan" }
-title = { fg = "magenta" }
-active = { fg = "magenta" }
-inactive = { fg = "darkgrey" }
+border = { fg = "#00BFFF" }
+title = { fg = "#947CFF" }
+active = { fg = "#947CFF" }
+inactive = { fg = "#022945" }
 
 [input]
-border = { fg = "cyan" }
-title = { fg = "magenta" }
-value = { fg = "grey" }
+border = { fg = "#00BFFF" }
+title = { fg = "#947CFF" }
+value = { fg = "#7898C7" }
 
 [completion]
-border = { fg = "cyan" }
-title = { fg = "magenta" }
-active = { fg = "magenta" }
-inactive = { fg = "darkgrey" }
+border = { fg = "#00BFFF" }
+title = { fg = "#947CFF" }
+active = { fg = "#947CFF" }
+inactive = { fg = "#022945" }
 
 icon_file = ""
 icon_folder = ""
 icon_command = ""
 
 [tasks]
-border = { fg = "cyan" }
-title = { fg = "magenta" }
-hovered = { fg = "grey", bg = "yellow" }
+border = { fg = "#00BFFF" }
+title = { fg = "#947CFF" }
+hovered = { fg = "#7898C7", bg = "#FF7F0F" }
 
 [which]
 cols = 3
-border = { fg = "darkgrey" }
-# mask = { fg = "#07060E" } # -- for transparent (term color)
-mask = { bg = "darkgrey" }
-cand = { fg = "lightcyan" }
-rest = { fg = "blue" }
-desc = { fg = "grey" }
+border = { fg = "#022945" }
+mask = { bg = "#022945" }
+cand = { fg = "#00E5FF" }
+rest = { fg = "#178FFF" }
+desc = { fg = "#7898C7" }
 separator = " ➜ "
-separator_style = { fg = "magenta" }
+separator_style = { fg = "#947CFF" }
 
 [confirm]
-border = { fg = "cyan" }
-title = { fg = "lightcyan" }
-content = { fg = "grey", italic = false }
-list = { fg = "grey", italic = false }
-btn_yes = { bg = "red", fg = "black", bold = true }
-btn_no = { bg = "lightcyan", fg = "black", bold = true }
+border = { fg = "#00BFFF" }
+title = { fg = "#00E5FF" }
+content = { fg = "#7898C7", italic = false }
+list = { fg = "#ABC9ED", italic = false }
+btn_yes = { bg = "#FF4747", fg = "#1F2335", bold = true }
+btn_no = { bg = "#00E5FF", fg = "#1F2335", bold = true }
 btn_labels = ["  [Y]es  ", "  (N)o  "]
 
 [spot]
-border = { fg = "cyan" }
-title = { fg = "lightcyan" }
+border = { fg = "#00BFFF" }
+title = { fg = "#00E5FF" }
 
 [notify]
-title_info = { fg = "green" }
-title_warn = { fg = "yellow" }
-title_error = { fg = "red" }
+title_info = { fg = "#34eb83" }
+title_warn = { fg = "#FF7F0F" }
+title_error = { fg = "#FF4747" }
 
 icon_error = ""
 icon_warn = ""
 icon_info = ""
 
 [help]
-on = { fg = "cyan" }
-run = { fg = "magenta" }
-hovered = { bg = "darkgrey" }
-footer = { fg = "grey", bg = "black" }
+on = { fg = "#00BFFF" }
+run = { fg = "#947CFF" }
+hovered = { bg = "#022945" }
+footer = { fg = "#4A6070", bg = "#1F2335" }
 
 [filetype]
 rules = [
-  { mime = "image/*", fg = "cyan" },
-  { mime = "{audio,video}/*", fg = "yellow" },
-  { mime = "application/*zip", fg = "red" },
-  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "red" },
-  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "grey" },
+  { mime = "image/*", fg = "#0166a9" },
+  { mime = "{audio,video}/*", fg = "#FFB370" },
+  { mime = "application/*zip", fg = "#FF4747" },
+  { mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#FF4747" },
+  { mime = "application/{pdf,doc,rtf,vnd.*}", fg = "#B4C9FF" },
 
   # Empty files
-  { mime = "inode/x-empty", fg = "red" },
+  { mime = "inode/x-empty", fg = "#FF4747" },
 
   # Special files
-  { url = "*", is = "orphan", fg = "red" },
-  { url = "*", is = "exec", fg = "magenta" },
+  { url = "*", is = "orphan", fg = "#FF4747" },
+  { url = "*", is = "exec", fg = "#947CFF" },
 
   # Fallback
-  { url = "*/", fg = "cyan" },
+  { url = "*/", fg = "#00BFFF" },
 ]
 
 [icon]
 
 dirs = [
-  { name = ".config", text = "", fg = "yellow" },
-  { name = ".git", text = "", fg = "green" },
-  { name = ".github", text = "", fg = "green" },
+  { name = ".config", text = "", fg = "#FF7F0F" },
+  { name = ".git", text = "", fg = "#34eb83" },
+  { name = ".github", text = "", fg = "#34eb83" },
   { name = ".npm", text = "", fg = "#bd93f9" },
-  { name = "Desktop", text = "", fg = "#8be9fd" },
-  { name = "Development", text = "", fg = "#8be9fd" },
-  { name = "Documents", text = "", fg = "#8be9fd" },
-  { name = "Downloads", text = "", fg = "#8be9fd" },
-  { name = "Library", text = "", fg = "#8be9fd" },
-  { name = "Movies", text = "", fg = "#8be9fd" },
-  { name = "Music", text = "", fg = "#8be9fd" },
-  { name = "Pictures", text = "", fg = "#8be9fd" },
-  { name = "Public", text = "", fg = "#8be9fd" },
-  { name = "Videos", text = "", fg = "#8be9fd" },
+  { name = "Desktop", text = "", fg = "#00FFFF" },
+  { name = "Development", text = "", fg = "#00FFFF" },
+  { name = "Documents", text = "", fg = "#00FFFF" },
+  { name = "Downloads", text = "", fg = "#00FFFF" },
+  { name = "Library", text = "", fg = "#00FFFF" },
+  { name = "Movies", text = "", fg = "#00FFFF" },
+  { name = "Music", text = "", fg = "#00FFFF" },
+  { name = "Pictures", text = "", fg = "#00FFFF" },
+  { name = "Public", text = "", fg = "#00FFFF" },
+  { name = "Videos", text = "", fg = "#00FFFF" },
 ]
 conds = [
   # Special files
-  { if = "orphan", text = "", fg = "red" },
-  { if = "link", text = "", fg = "lightmagenta" },
+  { if = "orphan", text = "", fg = "#FF4747" },
+  { if = "link", text = "", fg = "#947CFF" },
   { if = "block", text = "", fg = "#ffb86c" },
   { if = "char", text = "", fg = "#ffb86c" },
   { if = "fifo", text = "", fg = "#ffb86c" },
   { if = "sock", text = "", fg = "#ffb86c" },
   { if = "sticky", text = "", fg = "#ffb86c" },
   { if = "dummy", text = "", fg = "#ff5555" },
-
   # Fallback
-  { if = "dir & hovered", text = "", fg = "blue" },
-  { if = "dir", text = "", fg = "blue" },
-  { if = "exec", text = "", fg = "#50fa7b" },
+  { if = "dir & hovered", text = "", fg = "#00BFFF" },
+  { if = "dir", text = "", fg = "#00BFFF" },
+  { if = "exec", text = "", fg = "#947CFF" },
   { if = "!dir", text = "", fg = "#f8f8f2" },
 ]
 files = [
@@ -639,8 +637,8 @@ exts = [
   { name = "mobi", text = "", fg = "#fab387" },
   { name = "mojo", text = "", fg = "#f38ba8" },
   { name = "mov", text = "", fg = "#fab387" },
-  { name = "mp3", text = "", fg = "#89b4fa" },
-  { name = "mp4", text = "", fg = "#fab387" },
+  { name = "mp3", text = "", fg = "#178FFF" },
+  { name = "mp4", text = "", fg = "#178FFF" },
   { name = "mpp", text = "", fg = "#89b4fa" },
   { name = "msf", text = "", fg = "#89b4fa" },
   { name = "mts", text = "", fg = "#89b4fa" },
@@ -677,7 +675,7 @@ exts = [
   { name = "pls", text = "󰲹", fg = "#cba6f7" },
   { name = "ply", text = "󰆧", fg = "#cba6f7" },
   { name = "pm", text = "", fg = "#89b4fa" },
-  { name = "png", text = "", fg = "#cba6f7" },
+  { name = "png", text = "", fg = "#065287" },
   { name = "po", text = "", fg = "#89b4fa" },
   { name = "pot", text = "", fg = "#89b4fa" },
   { name = "pp", text = "", fg = "#fab387" },

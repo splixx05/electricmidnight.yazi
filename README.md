@@ -9,7 +9,7 @@
 ## 🎨 Installation
 
 ```sh
-ya pkg add splixx05/electricmidnight
+ya pkg add splixx05/electricmidnight.yazi
 ```
 
 ## ⚙️ Usage
@@ -18,7 +18,7 @@ Set the content of your `theme.toml` to enable it as your _dark_ flavor:
 
 ```toml
 [flavor]
-dark = "ElectricMidnight"
+dark = "electricmidnight"
 ```
 
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want to override certain styles of this flavor.
